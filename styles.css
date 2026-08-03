@@ -371,11 +371,11 @@ html {
     }
         
     .body-text-right {
-        clear: none;
+        clear: both;
     }
 
     .subsection-heading-right {
-        clear: none;
+        clear: both;
     }
  
 
