@@ -1,224 +1,111 @@
 <!DOCTYPE html>  <!-- specifies document type -->
-<html lang = "en"> <!--specifies language of the document-->
-  <style>html { scroll-behavior: smooth; }</style>
+<html lang="en"> <!-- specifies language of the document -->
 <head> <!-- contains metadata about the document -->
-    <meta charset = "UTF-8"/> <!-- specifies character encoding for the document -->
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!-- sets the viewport to make the website look good on all devices -->
+    <meta charset="UTF-8"/> <!-- specifies character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- sets the viewport to make the website look good on all devices -->
     <title>Monroe Junior Falcons Wrestling</title> <!-- specifies the title of the document, which is displayed in the browser's title bar or tab -->
     <link rel="stylesheet" href="styles.css">
     <meta name="description" content="Wrestling">
-
 </head>
-<body style="
-    background-color: #1d1d1d;
-    font-family: 'Arial', sans-serif;
-    margin: 0 150px 0 150px;
-    font-size: 20px;
-    line-height: 1.6;
-    "
-    >
-
-    <footer
-        style="
-            top: 0;
-            margin: 0 -150px 0 -150px;
-            width: 100vw;
-            padding: 5px 30px 5px 30px;
-            background-color: #1d1d1d;
-            color: whitesmoke;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-sizing: border-box;
-            position: fixed;
-        "
-        >
-        <img src="images/monroelogo.jpg" 
-            alt="monroe logo" 
-            style="
-            width: 60px; 
-            height: auto; 
-            border-radius: 50%;
-            margin: 0;
-            "
-        >
-        <h2 style="font-size: 22px; padding-right: 400px; float: left; font-weight: 200;">Monroe Junior Falcons Wrestling</h2>
-        <div style="display: flex; gap: 30px;">
-            <a href="index.html" class="nav-link" style="text-decoration: none;">
-                <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: whitesmoke;">HOME</h3>
+<body class="site-body">
+ 
+    <footer class="site-footer">
+        <img src="images/monroelogo.jpg" alt="monroe logo" class="footer-logo">
+ 
+        <h2 class="footer-title">Monroe Junior Falcons Wrestling</h2>
+ 
+        <div class="footer-nav">
+            <a href="index.html" class="nav-link">
+                <h3 class="nav-text nav-active">HOME</h3>
             </a>
-            
-            <a href="registration.html" class="nav-link" style="text-decoration: none;">
-                <h3 style="margin: 0; font-size: 18px; font-weight: 200; color: whitesmoke;">REGISTRATION</h3>
+ 
+            <a href="registration.html" class="nav-link">
+                <h3 class="nav-text">REGISTRATION</h3>
             </a>
-
-            <a href="schedule.html" class="nav-link" style="text-decoration: none;">
-                <h3 style="margin: 0; font-size: 18px; font-weight: 200; color: whitesmoke;">SCHEDULE</h3>
+ 
+            <a href="schedule.html" class="nav-link">
+                <h3 class="nav-text">SCHEDULE</h3>
             </a>
-
-            <a href="contacts.html" class="nav-link" style="text-decoration: none;">
-                <h3 style="margin: 0; font-size: 18px; font-weight: 200; color: whitesmoke;">CONTACTS</h3>
+ 
+            <a href="contacts.html" class="nav-link">
+                <h3 class="nav-text">CONTACTS</h3>
             </a>
-
-            <a href="links.html" class="nav-link" style="text-decoration: none;">
-                <h3 style="margin: 0; font-size: 18px; font-weight: 200; color: whitesmoke;">LINKS</h3>
+ 
+            <a href="links.html" class="nav-link">
+                <h3 class="nav-text">LINKS</h3>
             </a>
         </div>
     </footer>
-
-    <img src="images/monroelogo.jpg" 
-        alt="monroe logo" 
-        style="
-            width: 400px; 
-            height: auto; 
-            display: block; 
-            margin: 0 0 0 -40px;
-            float: right;
-        "
-    >
-
-    <h1
-        style="
-            text-align: left;
-            font-family: 'Impact', sans-serif;
-            font-size: 80px;
-            color: whitesmoke;
-            margin-top: 90px;
-        "
-        >
+ 
+    <img src="images/monroelogo.jpg" alt="monroe logo" class="hero-logo">
+ 
+    <h1 class="hero-heading">
         Get Tougher Physically
         <br>
-        <span style="color:#742cb7;">Get Tougher Mentally </span>
+        <span class="hero-accent">Get Tougher Mentally </span>
         <br>
         Come Wrestle
     </h1>
-
-    <p
-        style="
-            text-align: left;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            color: #c0c0c0;
-        "
-        >
+ 
+    <p class="body-text">
         Open to Monroe and Jamesburg K–8 boys and girls. The season runs from mid-November through the end of February. Practice weekday evenings at the Monroe Township High School wrestling room. Wrestle in Mid-Jersey and Jersey Shore wrestling leagues
     </p>
-
-    <section style="
-        background: #303030;
-        color: #ffab1b;
-        font-family: 'Courier New', monospace;
-        margin: 0 -150px 0 -150px;
-        padding: 40px 200px;
-        display: flex;
-        justify-content: space-between;
-        box-sizing: border-box;
-        "
-        >
-    
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-            <strong style="font-size: 30px;">K - 8</strong>
-            <span style="color: #c0c0c0; font-size: 20px; font-family: 'Arial', sans-serif;">Boys & Girls</span>
+ 
+    <section class="stats-section">
+ 
+        <div class="stat-item">
+            <strong class="stat-number">K - 8</strong>
+            <span class="stat-label">Boys & Girls</span>
         </div>
-    
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-            <strong style="font-size: 30px;">2 Leagues</strong>
-            <span style="color: #c0c0c0; font-size: 20px; font-family: 'Arial', sans-serif;">Mid-Jersey & Jersey Shore</span>
+ 
+        <div class="stat-item">
+            <strong class="stat-number">2 Leagues</strong>
+            <span class="stat-label">Mid-Jersey & Jersey Shore</span>
         </div>
-    
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-            <strong style="font-size: 30px;">Nov - Feb</strong>
-            <span style="color: #c0c0c0; font-size: 20px; font-family: 'Arial', sans-serif;">Season Length</span>
+ 
+        <div class="stat-item">
+            <strong class="stat-number">Nov - Feb</strong>
+            <span class="stat-label">Season Length</span>
         </div>
-    
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-            <strong style="font-size: 30px;">MTHS</strong>
-            <span style="color: #c0c0c0; font-size: 20px; font-family: 'Arial', sans-serif;">Practice Location</span>
+ 
+        <div class="stat-item">
+            <strong class="stat-number">MTHS</strong>
+            <span class="stat-label">Practice Location</span>
         </div>
     </section>
-
-    <div class="photo-row"
-        style="
-            margin-top: 40px;
-            display: flex; 
-            gap: 20px; 
-            align-items: center;
-        "
-        >
-        <img src="images/monroecartoon.jpg" alt="cartoon picture" style="width: 30%; height: auto;">
-        <img src="images/BdivisionChampsMonroe.jpg" alt="Championship Picture" style="width: 30%; height: auto;">
-        <img src="images/monroefalconteam.jpg" alt="Team Photo" style="width: 30%; height: auto;">
+ 
+    <div class="photo-row">
+        <img src="images/monroecartoon.jpg" alt="cartoon picture">
+        <img src="images/BdivisionChampsMonroe.jpg" alt="Championship Picture">
+        <img src="images/monroefalconteam.jpg" alt="Team Photo">
     </div>
-
-    <div style="display: flex; align-items: center; text-align: center; margin: 40px 0;">
-        <div style="flex: 1; border-bottom: 1px solid #ffab1b;"></div>
+ 
+    <div class="divider">
+        <div class="divider-line"></div>
     </div>
-
-    <h2
-        style="
-            text-align: left;
-            font-family: 'Impact', sans-serif;
-            font-size: 50px;
-            color: whitesmoke;
-            "
-            >
-            Upcoming Events
+ 
+    <h2 class="section-heading">
+        Upcoming Events
     </h2>
-
-    <h3
-        style="
-            text-align: left;
-            font-family: 'Impact', sans-serif;
-            font-size: 30px;
-            color: whitesmoke;
-        "
-        >
+ 
+    <h3 class="subsection-heading">
         Falcon Summer Wrestling Camp
     </h3>
-
-    <img src="images/MonroeWrestlingCamp.jpg" 
-        alt="monroe falcons wrestling camp flyer" 
-        style="
-            width: 400px; 
-            height: auto; 
-            display: block; 
-            margin: 0 0 0 0;
-            float: right;
-        "
-    >
-
-    <a href="https://register.capturepoint.com/reg/login.cfm?cuBOAP3V0p4trnasCJNBkrfRqBRZA8M1ugTdgJwcwr%2BLxIFL2ZCtvf%2Fw" target="_blank" rel="noopener noreferrer"
-        style="
-            clear: right;
-            float: right;
-            background-color: #742cb7;
-            color: whitesmoke;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            margin-top: 15px;
-            text-decoration: none;
-        "
+ 
+    <img src="images/MonroeWrestlingCamp.jpg" alt="monroe falcons wrestling camp flyer" class="produce-img">
+ 
+    <a href="https://register.capturepoint.com/reg/login.cfm?cuBOAP3V0p4trnasCJNBkrfRqBRZA8M1ugTdgJwcwr%2BLxIFL2ZCtvf%2Fw"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-float"
     >
             Registration Link - Falcon Summer Camp
     </a>
-
-
-    <p
-        style="
-            text-align: left;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            color: #c0c0c0;
-        "
-        >
+ 
+    <p class="body-text">
         Spend two days learning basic wrestling skills in a friendly, technique-focused setting — built for beginners and returning wrestlers alike.
         <br>
-        <span style="color: #ffab1b; font-weight: bold; font-family: 'Courier New', Courier, monospace; font-size: 50px;">$70</span>
+        <span class="price-tag">$70</span>
         <br><br>
         <strong>Who -</strong> Grades K-8
         <br>
@@ -228,26 +115,12 @@
         <br>
         <strong>Coaches -</strong> Wrestling Coach Chris Muce
     </p>
-
-    <h4
-        style="
-            text-align: left;
-            font-family: 'Impact', sans-serif;
-            font-size: 25px;
-            color: whitesmoke;
-        "
-        >
+ 
+    <h4 class="how-to-heading">
         How To Register
     </h4>
-
-    <p
-        style="
-            text-align: left;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            color: #c0c0c0;
-        "
-        >
+ 
+    <p class="body-text">
         1. Access the provided link
         <br>
         2. Sign in to your account
@@ -260,68 +133,32 @@
         <br>
         6. Scroll down to Wrestling Camp - Grades K-8 - Aug 10 - Aug 11
     </p>
-
-    <div style="display: flex; align-items: center; text-align: center; margin: 40px 0;">
-        <div style="flex: 1; border-bottom: 1px solid #ffab1b;"></div>
+ 
+    <div class="divider">
+        <div class="divider-line"></div>
     </div>
-
-    <h2
-        style="
-            text-align: Center;
-            font-family: 'Impact', sans-serif;
-            font-size: 50px;
-            color: whitesmoke;
-            "
-        >
-            2026 - 2027 Registration
+ 
+    <h2 class="section-heading section-heading-center">
+        2026 - 2027 Registration
     </h2>
-
-    <a href="registration.html"
-        style="
-            background-color: #742cb7;
-            color: whitesmoke;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            text-decoration: none;
-            "
-        >
-            Registration Page
+ 
+    <a href="registration.html" class="btn btn-center">
+        Registration Page
     </a>
-
-    <div style="display: flex; align-items: center; text-align: center; margin: 40px 0;">
-        <div style="flex: 1; border-bottom: 1px solid #ffab1b;"></div>
+ 
+    <div class="divider">
+        <div class="divider-line"></div>
     </div>
-
-    <h2
-        style="
-            text-align: Center;
-            font-family: 'Impact', sans-serif;
-            font-size: 50px;
-            color: whitesmoke;
-            "
-        >
-            Coaches
+ 
+    <h2 class="section-heading section-heading-center">
+        Coaches
     </h2>
-
-    <p
-        style="
-            text-align: left;
-            font-family: 'Arial', sans-serif;
-            font-size: 20px;
-            color: #c0c0c0;
-        "
-        >
+ 
+    <p class="body-text">
         Coach Joe Fiordaliso
         <br>
         Coach Aaron Buyom
-        <br>   
+        <br>
         Coach Mo Shama
         <br>
         Coach Stephen Guzikowski
@@ -330,27 +167,15 @@
         <br>
         Coach Trey McFadden
     </p>
-
-    <div style="display: flex; align-items: center; text-align: center; margin: 40px 0 20px 0;">
-        <div style="flex: 1; border-bottom: 1px solid #ffab1b;"></div>
+ 
+    <div class="divider">
+        <div class="divider-line"></div>
     </div>
-
-
-    <section style="
-            background: #1d1d1d;
-            color: #c0c0c0;
-            font-family: 'Arial', sans-serif;
-            font-size: 15px;
-            padding: 20px 0px 25px 0px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-sizing: border-box;
-        "
-        >
-        <div class="container"> &copy; 2026 Monroe Junior Falcons Wrestling </div>
-        <div class="container"> Designed by Evalina Guzikowski </div>
+ 
+    <section class="site-footer-bottom">
+        <div class="container">&copy; 2026 Monroe Junior Falcons Wrestling</div>
+        <div class="container">Designed by Evalina Guzikowski</div>
     </section>
-
+ 
 </body>
 </html>
