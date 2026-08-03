@@ -368,7 +368,7 @@ html {
     .body-text-right {
         text-align: left;
         float: none;
-        clear: none;
+        clear: both;
     }
 
     body {
