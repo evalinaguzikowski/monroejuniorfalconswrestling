@@ -369,14 +369,6 @@ html {
         flex-direction: column;
         gap: 30px;
     }
-        
-    .body-text-right {
-        clear: both;
-    }
-
-    .subsection-heading-right {
-        clear: both;
-    }
  
 
     body {
