@@ -5,6 +5,11 @@ html {
 * {
     box-sizing: border-box;
 }
+
+/* ---------- Utilities ---------- */
+.clear-both {
+    clear: both;
+}
  
 /* ---------- Body ---------- */
 .site-body {
