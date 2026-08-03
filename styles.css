@@ -5,6 +5,11 @@ html {
 * {
     box-sizing: border-box;
 }
+
+/* ---------- Utilities ---------- */
+    .clear-both {
+    clear: both;
+    }
  
 /* ---------- Body ---------- */
 .site-body {
@@ -363,10 +368,6 @@ html {
     .contact-row {
         flex-direction: column;
         gap: 30px;
-    }
-
-    .clear-both {
-    clear: both;
     }
 
     .body-text-right {
