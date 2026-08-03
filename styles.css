@@ -100,7 +100,6 @@ html {
     font-size: 20px;
     color: #c0c0c0;
     font-weight: 200;
-    clear: both;
 }
  
 /* ---------- Stats section ---------- */
@@ -186,7 +185,6 @@ html {
     font-family: 'Impact', sans-serif;
     font-size: 30px;
     color: whitesmoke;
-    clear: both;
 }
  
 .how-to-heading {
@@ -367,10 +365,6 @@ html {
         gap: 30px;
     }
 
-    .clear-both {
-        clear: both;
-    }
-
     .body-text-right {
         float: left;
     }
@@ -378,7 +372,8 @@ html {
     .subsection-heading-right {
         float: left;
     }
-    
+ 
+
     body {
         font-size: 14px;
     }
