@@ -365,6 +365,10 @@ html {
         gap: 30px;
     }
 
+    .clear-both {
+    clear: both;
+    }
+
     .body-text-right {
         float: none;
         clear: none;
