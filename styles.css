@@ -372,12 +372,12 @@ html {
 
     .body-text-right {
         float: left;
-        clear: both;
+        clear: none;
     }
 
     .subsection-heading-right {
         float: left;
-        clear: both;
+        clear: none;
     }
  
 
