@@ -371,13 +371,13 @@ html {
     }
 
     .body-text-right {
-        float: left;
-        clear: both;
+        float: none;
+        clear: none;
     }
 
     .subsection-heading-right {
-        float: left;
-        clear: both;
+        float: none;
+        clear: none;
     }
     
     body {
