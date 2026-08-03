@@ -366,11 +366,15 @@ html {
     }
 
     .body-text-right {
-        text-align: left;
         float: none;
         clear: both;
     }
 
+    .subsection-heading-right {
+        float: left;
+        clear: both;
+    }
+    
     body {
         font-size: 14px;
     }
