@@ -5,10 +5,6 @@ html {
 * {
     box-sizing: border-box;
 }
-
-    .clear-both {
-        clear: both;
-    }
  
 /* ---------- Body ---------- */
 .site-body {
