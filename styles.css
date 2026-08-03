@@ -365,6 +365,12 @@ html {
         gap: 30px;
     }
 
+    .body-text-right {
+        text-align: left;
+        float: none;
+        clear: none;
+    }
+
     body {
         font-size: 14px;
     }
