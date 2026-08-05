@@ -157,6 +157,7 @@ html {
     align-items: center;
     text-align: center;
     margin: 40px 0;
+    clear: both;
 }
  
 .divider-line {
