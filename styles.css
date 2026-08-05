@@ -354,7 +354,7 @@ html {
         clear: none;
     }
 
-    .btn-floatright {
+    .btn-floatleft {
         float: none;
         display: block;
         width: 100%;
@@ -372,7 +372,7 @@ html {
     }
 
     .subsection-heading-right {
-        float: left;
+        float: none;
         clear: both;
     }
     
