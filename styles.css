@@ -370,6 +370,16 @@ html {
         flex-direction: column;
         gap: 30px;
     }
+
+    .subsection-heading-right {
+        float: left;
+        clear: both;
+    }
+    
+    .body-text-right {
+        float: left;
+        clear: both;
+    }
  
 
     body {
