@@ -20,8 +20,8 @@ html {
     line-height: 1.6;
 }
  
-/* ---------- Footer / Nav ---------- */
-.site-footer {
+/* ---------- Header / Nav ---------- */
+.site-header {
     top: 0;
     margin: 0 -150px;
     width: 100vw;
@@ -35,21 +35,21 @@ html {
     position: fixed;
 }
  
-.footer-logo {
+.header-logo {
     width: 60px;
     height: auto;
     border-radius: 50%;
     margin: 0;
 }
  
-.footer-title {
+.header-title {
     font-size: 22px;
     padding-right: 400px;
     float: left;
     font-weight: 200;
 }
  
-.footer-nav {
+.header-nav {
     display: flex;
     gap: 30px;
 }
