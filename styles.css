@@ -363,6 +363,10 @@ html {
     .subsection-heading-right {
         float: none;
     }
+
+    .body-text-right{
+        float: none;
+    }
  
     .section-heading,
     .section-heading-center {
