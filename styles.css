@@ -7,9 +7,9 @@ html {
 }
 
 /* ---------- Utilities ---------- */
-    .clear-both {
+.clear-both {
     clear: both;
-    }
+}
  
 /* ---------- Body ---------- */
 .site-body {
@@ -63,6 +63,7 @@ html {
     font-size: 18px;
     font-weight: 200;
     color: whitesmoke;
+    text-decoration: none;
 }
  
 .nav-active {
@@ -297,7 +298,7 @@ html {
         margin: 0 15px;
     }
  
-    .site-footer {
+    .site-header {
         margin: 0 -15px;
         flex-direction: column;
         gap: 12px;
@@ -306,13 +307,12 @@ html {
         text-align: center;
     }
  
-    .footer-title {
-        float: none;
+    .header-title {
         padding-right: 0;
         font-size: 18px;
     }
  
-    .footer-nav {
+    .header-nav {
         flex-wrap: wrap;
         justify-content: center;
         gap: 12px;
@@ -359,6 +359,10 @@ html {
         width: 100%;
         clear: none;
     }
+
+    .subsection-heading-right {
+        float: none;
+    }
  
     .section-heading,
     .section-heading-center {
@@ -368,16 +372,6 @@ html {
     .contact-row {
         flex-direction: column;
         gap: 30px;
-    }
-
-    .subsection-heading-right {
-        float: none;
-        clear: both;
-    }
-    
-    .body-text-right {
-        float: left;
-        clear: both;
     }
  
 
