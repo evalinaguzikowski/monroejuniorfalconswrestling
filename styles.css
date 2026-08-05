@@ -5,7 +5,7 @@ html {
 * {
     box-sizing: border-box;
 }
-
+ 
 /* ---------- Utilities ---------- */
 .clear-both {
     clear: both;
@@ -97,7 +97,7 @@ html {
     font-size: 20px;
     color: #c0c0c0;
 }
-
+ 
 .body-text-right {
     text-align: left;
     float: right;
@@ -184,7 +184,7 @@ html {
     font-size: 30px;
     color: whitesmoke;
 }
-
+ 
 .subsection-heading-right {
     float: right;
     text-align: left;
@@ -219,7 +219,7 @@ html {
     float: right;
     margin-top: 15px;
 }
-
+ 
 .btn-floatleft {
     clear: left;
     float: left;
@@ -260,7 +260,7 @@ html {
     align-items: center;
     box-sizing: border-box;
 }
-
+ 
 /* ---------- Contact cards ---------- */
 .contact-row {
     font-family: 'Arial', sans-serif;
@@ -352,19 +352,19 @@ html {
         width: 100%;
         clear: none;
     }
-
+ 
     .btn-floatleft {
         float: none;
         display: block;
         width: 100%;
         clear: none;
     }
-
+ 
     .subsection-heading-right {
         float: none;
     }
-
-    .body-text-right{
+ 
+    .body-text-right {
         float: none;
     }
  
@@ -378,7 +378,7 @@ html {
         gap: 30px;
     }
  
-
+ 
     body {
         font-size: 14px;
     }
